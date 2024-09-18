@@ -1,0 +1,22 @@
+{
+  "name": "bobrovva/http_messaging_broker_lib",
+  "description": "Http сервис для взаимодействия между микросервисами",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "bobrovva\\http_messaging_broker_lib\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1",
+    "laravel/framework": "^11.9"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "bobrovva\\messaging_broker_lib\\Providers\\MessagingBrokerServiceProvider"
+      ]
+    }
+  }
+}
