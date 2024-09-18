@@ -1,6 +1,6 @@
 <?php
 
-namespace bobrovva\messaging_broker_lib\Providers;
+namespace bobrovva\http_messaging_broker_lib\Providers;
 
 use bobrovva\http_messaging_broker_lib\HttpMessagingBroker\HttpBroker;
 use bobrovva\http_messaging_broker_lib\HttpMessagingBroker\HttpMessagingBrokerInterface;

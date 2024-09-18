@@ -1,6 +1,6 @@
 <?php
 
-namespace bobrovva\http_messaging_broker_lib\Enums;
+namespace App\Infrastructure\HttpMessagingBroker\Enums;
 
 use bobrovva\http_messaging_broker_lib\Enums\Traits\EnumHelper;
 
