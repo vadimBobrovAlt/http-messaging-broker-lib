@@ -6,12 +6,16 @@
 ```
 php artisan vendor:publish --tag=http-messaging-broker
 ```
+
+#### APP_KEY должен быть одинаковым во всех сервисах иначе не произойдет расшифровка токена
+
 После публикации создадутся 3 файла:
 - `app/Infrastructure/MessagingBroker/Enums/ServiceEnum.php` - Enum сервисов с которыми система взаимодействует
 - `app/Infrastructure/MessagingBroker/Enums/HttpMessagingBrokerEnum.php` - Enum эндпоинтов с которыми сервис взаимодействует
 - `config/service.php` - Конфигурация сервисов
-
+- 
 Библиотека содержит `Middleware` для зашиты эндпоинтов с которыми сервисы могут взаимодействовать работает по заголовку `X-Token`
+
 ```phpt
 use bobrovva\http_messaging_broker_lib\Middleware\CheckServiceAuthMiddleware;
 
