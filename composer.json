@@ -15,7 +15,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "bobrovva\\messaging_broker_lib\\Providers\\MessagingBrokerServiceProvider"
+        "bobrovva\\messaging_broker_lib\\Providers\\HttpMessagingBrokerServiceProvider"
       ]
     }
   }
