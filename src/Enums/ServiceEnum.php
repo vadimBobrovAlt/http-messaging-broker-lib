@@ -2,7 +2,8 @@
 
 namespace App\Infrastructure\HttpMessagingBroker\Enums;
 
-use bobrovva\http_messaging_broker_lib\Enums\Traits\EnumHelper;
+use bobrovva\enum_helper_lib\EnumHelper;
+use Illuminate\Support\Facades\Crypt;
 
 /**
  * Перечисление ServiceEnum

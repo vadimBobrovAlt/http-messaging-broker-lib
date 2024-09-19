@@ -2,9 +2,7 @@
 
 namespace App\Infrastructure\HttpMessagingBroker\Enums;
 
-
-use bobrovva\http_messaging_broker_lib\Enums\ServiceEnum;
-use bobrovva\http_messaging_broker_lib\Enums\Traits\EnumHelper;
+use bobrovva\enum_helper_lib\EnumHelper;
 
 /**
  * Перечисление HttpMessagingBrokerEnum
