@@ -3,7 +3,7 @@
 namespace bobrovva\http_messaging_broker_lib\HttpMessagingBroker;
 
 use App\Infrastructure\HttpMessagingBroker\Enums\HttpMessagingBrokerEnum;
-use bobrovva\http_messaging_broker_lib\Enums\ServiceEnum;
+use App\Infrastructure\HttpMessagingBroker\Enums\ServiceEnum;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Http\Client\Response;
