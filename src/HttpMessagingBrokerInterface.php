@@ -1,6 +1,6 @@
 <?php
 
-namespace bobrovva\http_messaging_broker_lib\HttpMessagingBroker;
+namespace bobrovva\http_messaging_broker_lib;
 
 use App\Infrastructure\HttpMessagingBroker\Enums\HttpMessagingBrokerEnum;
 

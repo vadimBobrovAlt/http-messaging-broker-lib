@@ -2,8 +2,8 @@
 
 namespace bobrovva\http_messaging_broker_lib\Providers;
 
-use bobrovva\http_messaging_broker_lib\HttpMessagingBroker\HttpBroker;
-use bobrovva\http_messaging_broker_lib\HttpMessagingBroker\HttpMessagingBrokerInterface;
+use bobrovva\http_messaging_broker_lib\HttpBroker;
+use bobrovva\http_messaging_broker_lib\HttpMessagingBrokerInterface;
 use Illuminate\Support\ServiceProvider;
 
 
