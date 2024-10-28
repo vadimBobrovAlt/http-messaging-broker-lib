@@ -126,7 +126,7 @@ class HttpBroker implements HttpMessagingBrokerInterface
         $headers = [
             'Accept' => 'application/json',
             'Content-Type' => 'application/json',
-            'Authorization' => 'X-Token ' . ServiceEnum::getToken($service)
+            'X-Token' => ServiceEnum::getToken($service)
         ];
 
         if (isset($payload['request_id'])) {
